@@ -1,33 +1,107 @@
 <!DOCTYPE html>
-    <head>
-        <title>Student Registration Form</title>
-    <link rel="stylesheet" href="main.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>    
 
-    </head>
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="index2.css">
 
-    <body>
-        <nav>
-            <h1>
-                Student Registration Form
-            </h1>
-        </nav>
-        
-        <article>
-        <form action="none">
-            First Name: <br>
-            <input type="text" name="firstname" placeholder="Enter First Name" required> 
-            <br>Middle Name:<br>
-            <input type="text" name="middlename" placeholder="Enter Middle Name" > 
-            <br>Last Name:<br>
-            <input type="text" name="lastname" placeholder="Enter Last Name" required><br>
-            <input type = "radio" name= "sex" value ="male">Male<br>
-            <input type = "radio" name= "sex" value ="female" id="check">Female<br><br>
-            <br>Address:<br>
-            
-            <textarea> </textarea>
-            <footer><button type="submit" onclick='window.location.href="Submit_success.html"'>Submit</button></footer>
-        </form>
-        </article>
-    </body>
+</head>
+
+<body>
+    <h1 style="text-align: center;border:solid 1px gray;border-radius:9px">Student Registration Form</h1>
+    <section>
+        <table border="0">
+            <!-- The following two tags are empty because they're only added to make the annoying swiggles disappear -->
+            <caption></caption>
+            <tr>
+                <th></th>
+            </tr>
+            <tr>
+                <td>
+                    First Name:
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter First Name...">
+                </td>
+            </tr>
+            <tr>
+                <td>Middle Name:</td>
+                <td><input type="text" placeholder="Enter Middle Name..."></td>
+            </tr>
+            <tr>
+                <td>
+                    Last Name:
+                </td>
+                <td>
+                    <input type="text" id="lname" placeholder="Enter Last Name...">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Select Gender:
+                </td>
+                <td>
+                    <input type="radio" name="sex" value="male">Male<br>
+                    <input type="radio" name="sex" value="female">Female
+
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td>
+                    <textarea name="Address" placeholder="Enter your Address..." cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone number:
+                </td>
+                <td>
+                    <input type="number" placeholder="Enter phone no.">
+                </td>
+            </tr>
+            <tr>
+                <td>Email ID:</td>
+                <td><input placeholder="imdopeaf@gmail.com" value="" type="email"></td>
+            </tr>
+            <tr>
+                <td>
+                    Hobbies:
+                </td>
+                <td>
+                    <input type="checkbox">Origami <br>
+                    <input type="checkbox">Gaming <br>
+                    <input type="checkbox">Watching Anime <br>
+                    <input type="checkbox">Sports<br>
+                    <input type="checkbox">Travelling<br>
+                    <input type="checkbox">Reading Books <br>
+                </td>
+            </tr>
+            <tr>
+                <td>Others:</td>
+                <td>
+                    <input type="text" placeholder="Other hobbies...">
+                </td>
+            </tr>
+            <tr>
+                <td>College:</td>
+                <td>
+                    <select name="" id="">
+                        <option value="PIET">PIET</option>
+                        <option value="PIT">PIT</option>
+                        <option value="PIA">PIA</option>
+                        <option value="PIH">PIH</option>
+                        <option value="PIP">PIP</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;" colspan="2">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </section>
+</body>
+
 </html>

@@ -31,7 +31,20 @@ body {
 * {
     font-family: 'Montserrat';
     color: blanchedalmond;
+}
 
+iframe {
+    border-radius: 9px;
+    height: 22em;
+    width: 50%;
+}
+
+input,
+textarea,
+select,
+option,
+button {
+    color: black;
 }
 
 nav,
@@ -74,7 +87,6 @@ footer {
     background-color: gray;
     box-shadow: gray 0.4rem 0.5rem 2rem;
     float: right;
-
     text-align: right;
     margin-bottom: 1%;
     margin-top: 1%;
@@ -84,4 +96,9 @@ footer {
     padding-bottom: 1%;
     height: 20%;
 
+}
+
+section {
+    width: 40%;
+    height: 60%;
 }
